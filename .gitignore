@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Build output (if any)
+dist/
+build/
+
+# OS files
+.DS_Store
+
+# Optional: PM2 or other process manager files
+pids/
+*.pid
