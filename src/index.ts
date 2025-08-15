@@ -13,7 +13,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-  origin: "time-tracker-app-frontend-a2s87q9aq-vishnus-projects-ca6d7896.vercel.app", 
+  origin: "time-tracker-app-frontend.vercel.app", 
   credentials: true
 }));
 app.use(express.json());
