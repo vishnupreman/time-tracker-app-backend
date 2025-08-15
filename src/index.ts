@@ -13,7 +13,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-  origin: "http://localhost:5173", // <-- your frontend dev server port
+  origin: "project-management-git-main-vishnus-projects-ca6d7896.vercel.app", 
   credentials: true
 }));
 app.use(express.json());
