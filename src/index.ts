@@ -13,7 +13,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-  origin: "project-management-git-main-vishnus-projects-ca6d7896.vercel.app", 
+  origin: "time-tracker-app-frontend-a2s87q9aq-vishnus-projects-ca6d7896.vercel.app", 
   credentials: true
 }));
 app.use(express.json());
